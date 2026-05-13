@@ -16,6 +16,9 @@ OS: Embdedded Linux (?)
 
 Interfaces:
 Line out, Line in, Mic in, Ethernet, USB, RS232, SD
+
+Notes:
+Videos are temporarily saved on the SD card as a .mp4 file
 ```
 
 #### Display
