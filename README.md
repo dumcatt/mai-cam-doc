@@ -12,7 +12,7 @@ Part No: 838-15222
 CPU: Texas Instruments TMS320DM368ZCE
 RAM: 2x Micron 2GH22 1Gb DDR2 (?)
 NAND: ST M29DW128G 128Mb 
-Media: MDA-S0021 4GB (?)
+Media: MDA-S0021 16GB  (?)
 OS: Embdedded Linux (?)
 
 Interfaces:
