@@ -49,6 +49,49 @@ Connected to COM1
 115200 Baud (?)
 WIP
 ```
+#### Boot Output
+```
+5_432 DDR 340 initialization passed!
+Booting TI User Boot Loader
+        UBL Version: 1.65f
+BUILD : Mar 30 2012 : 11:49:32
+
+        UBL Flashtype: SD/MMC
+   DONE
+Jumping to entry point at 0x81080000.
+
+
+U-Boot 2010.12-rc2-svn (Mar 30 2012 - 11:54:09)
+
+Cores: ARM 432 MHz
+DDR:   340 MHz
+I2C:   ready
+DRAM:  256 MiB
+MMC:   davinci: 0
+*** Warning - bad CRC, using default environment
+
+Net:   Ethernet PHY: GENERIC @ 0x01
+DaVinci-EMAC
+reading cramfs.bin
+
+12869632 bytes read
+reading uImage
+
+2163988 bytes read
+## Booting kernel from Legacy Image at 80700000 ...
+   Image Name:   Linux-2.6.32.17-davinci1
+   Created:      2012-04-19   7:35:18 UTC
+   Image Type:   ARM Linux Kernel Image (uncompressed)
+   Data Size:    2163924 Bytes = 2.1 MiB
+   Load Address: 80008000
+   Entry Point:  80008000
+   Verifying Checksum ... OK
+   Loading Kernel Image ... OK
+OK
+
+Starting kernel ...
+```
+
 
 #### Network
 ```
