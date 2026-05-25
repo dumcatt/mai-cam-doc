@@ -131,5 +131,6 @@ FTP on Port 21
 User: root
 Pass: movieCam
 Notes: Network is only used for FTP
+Videos are store in /home/root/movie/nowrec.mp4
 WIP
 ```
