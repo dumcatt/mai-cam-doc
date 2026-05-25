@@ -127,9 +127,9 @@ Starting kernel ...
 Connected to cabinet router on LAN 2
 Mac: 00:D0:F1:19:04:09
 IP: 192.168.103.201
-FTP on Port 22
+FTP on Port 21
 User: root
 Pass: movieCam
-Notes: Only used for FTP
+Notes: Network is only used for FTP
 WIP
 ```
