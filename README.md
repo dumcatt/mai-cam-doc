@@ -101,5 +101,7 @@ IP: 192.168.103.201
 FTP on Port 22
 User: root
 Pass: movieCam
+Notes:
+During startup, the RingEdge will output a test tone to the camera on C/W
 WIP
 ```
