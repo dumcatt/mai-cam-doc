@@ -96,6 +96,8 @@ Starting kernel ...
 #### Network
 ```
 Connected to cabinet router on LAN 2
-FTP(?)
+FTP on 192.168.103.201:22
+User: root
+Pass: movieCam
 WIP
 ```
