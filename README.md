@@ -102,6 +102,6 @@ FTP on Port 22
 User: root
 Pass: movieCam
 Notes:
-During startup, the RingEdge will output a test tone to the camera on C/W
+During startup, the RingEdge will play a 440hz test tone to the camera on C/W
 WIP
 ```
