@@ -96,7 +96,9 @@ Starting kernel ...
 #### Network
 ```
 Connected to cabinet router on LAN 2
-FTP on 192.168.103.201:22
+Mac: 00:D0:F1:19:04:09
+IP: 192.168.103.201
+FTP on Port 22
 User: root
 Pass: movieCam
 WIP
