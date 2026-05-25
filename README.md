@@ -46,7 +46,36 @@ Controller: SONY CXD3193AR
 #### Serial RS232
 ```
 Connected to COM1
-115200 Baud (?)
+During startup, the RingEdge will play a 440hz test tone to the camera on C/W
+115200 Baud
+[E0] - New Packet
+[Dest] - Destination ID (Camera)
+[Source] - Source ID (PC)
+[Length] - Number of bytes in payload
+[Payload...] - Actual Payload
+[Checksum] - Checksum of everything except for E0 (SUM(Destination, Source, Length, Payload) & 0xFF)
+
+Wake/Ping
+E0 02 01 01 F1 F5
+
+Network
+E0 02 01 26 80 01 31 39 32... 30 B0
+(Translates to 192168103201 255255255000000000000000)
+
+Status
+E0 02 01 01 F0 F4
+E0 02 01 01 61 65
+
+Hardware Register (Camera position??)
+E0 02 01 02 58 00 5D
+E0 02 01 02 59 00 5E
+
+Commit/Apply
+E0 02 01 01 B0 B4
+
+Start
+E0 02 01 04 21 00 00 01 29
+
 WIP
 ```
 #### Boot Output
@@ -101,7 +130,6 @@ IP: 192.168.103.201
 FTP on Port 22
 User: root
 Pass: movieCam
-Notes:
-During startup, the RingEdge will play a 440hz test tone to the camera on C/W
+Notes: Only used for FTP
 WIP
 ```
