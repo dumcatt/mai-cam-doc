@@ -1,7 +1,3 @@
-Here is a comprehensive documentation page for the *maimai* Camera Serial Protocol, structured in the style of arcade reverse-engineering wikis (like the *maimai* touch documentation).
-
----
-
 # maimai Camera Serial Protocol
 
 The *maimai* cabinet utilizes a standard RS232 serial connection to communicate between the host PC and the external camera assembly. The game acts as the master, pushing network configuration (IP/Subnet), timestamp syncs, and state triggers (Preview/Record/Stop) to the camera.
